@@ -14,7 +14,7 @@ table{border-collapse: collapse;}
   margin: 0 auto;
 }
 #sec1{
-  margin-top: 10px;
+  /* margin-top: 10px; */
   height: 600px;
   background: url(./img/sec1_bg.jpg) no-repeat center center;
   text-align: center;
@@ -59,6 +59,54 @@ table{border-collapse: collapse;}
   width: 840px;
   margin: 0 auto;
   padding: 50px 0 80px;
+}
+.sec2_list li{
+  height: 350px;
+  margin-bottom: 80px;
+}
+.sec2_list li:last-child{
+  margin-bottom: 0;
+}
+.sec2_list li .sec2_img{
+  float: left;
+}
+.sec2_list li .sec2_text{
+  width: 338px;
+  height: 350px;
+  float: left;
+  position: relative;
+}
+.sec2_list li:nth-child(odd) .sec2_img{
+  margin-right: 160px;
+}
+.sec2_list li:nth-child(even) .sec2_img{
+  margin-left: 160px;
+}
+.sec2_list li .sec2_img .img_ex{
+  width: 342px;
+  height: 350px;
+  background-color: #eee;
+}
+.sec2_list li .sec2_img .img_ex img{
+  width: 100%;
+}
+.sec2_text .text_title{
+  padding: 30px 0 35px;
+}
+.sec2_text .text_btn{
+  width: 257px;
+  height: 60px;
+  background: url(./img/btn1.png);
+  position: absolute;
+  bottom: 22px;
+  left: 0;
+}
+.sec2_text .text_btn a{
+  display: block;
+  height: 60px;
+}
+.sec2_text .text_btn:hover{
+  background-position: 0 bottom;
 }
 /* -------sec2--------- */
 
